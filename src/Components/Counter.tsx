@@ -1,8 +1,6 @@
 import React from 'react'
-interface IProps {
-    count: number;
-    setCount(count:number): void;
-}
+import { IProps } from '../Interfaces/Counter'
+
 function Counter({count, setCount}:IProps) {
   return (
     <>
