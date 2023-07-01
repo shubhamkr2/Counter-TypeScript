@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Counter() {
+function Counter({setCount}) {
   return (
     <div>Counter</div>
   )
