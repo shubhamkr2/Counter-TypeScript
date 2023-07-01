@@ -1,8 +1,15 @@
 import React from 'react'
-
-function Counter({setCount}) {
+interface IProps {
+    count: number;
+    setCount(count:number): void;
+}
+function Counter({count, setCount}:IProps) {
   return (
+    <>
     <div>Counter</div>
+    <button onClick={()=>setCount(count+1)} >+</button>
+    <button >-</button>
+    </>
   )
 }
 
