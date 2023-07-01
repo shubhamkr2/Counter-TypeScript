@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import "./App.css";
 import Counter from "./Components/Counter";
 
-interface ICounter {
-  count: number;
-}
-
 function App() {
   const [count, setCount] = useState<number>(0);
 
