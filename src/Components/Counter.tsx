@@ -7,8 +7,8 @@ function Counter({count, setCount}:IProps) {
   return (
     <>
     <div>Counter</div>
-    <button onClick={()=>setCount(count+1)} >+</button>
-    <button >-</button>
+    <button onClick={()=>setCount(count+1)}>+</button>
+    <button onClick={()=>setCount(count-1)}>-</button>
     </>
   )
 }
